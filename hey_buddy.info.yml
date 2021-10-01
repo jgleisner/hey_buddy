@@ -1,0 +1,6 @@
+name: Hey Buddy
+description: Creates a block welcoming a user back to the stated of logged-in-ness.
+package: Gleisner
+type: module
+version: 0.1
+core_version_requirement: 9.x

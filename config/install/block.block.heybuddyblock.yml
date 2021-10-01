@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - hey_buddy
+  theme:
+    - bartik
+id: heybuddyblock
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: hey_buddy_block
+settings:
+  id: hey_buddy_block
+  label: 'Hey Buddy block'
+  provider: hey_buddy
+  label_display: '0'
+  hey_buddy_message: 'welcome to the future'
+  hey_buddy_showhide: 1
+visibility: {  }
